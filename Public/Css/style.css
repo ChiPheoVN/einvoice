@@ -1,0 +1,38 @@
+div[role="main1"]{
+    height: 100vh;
+}
+.col_checkbox{
+    width: 50px;
+}
+a.a-btn{
+    padding: 5px 5px;
+}
+.list-group>.list-group-item>.checkbox{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+div.modal_setup_file_setting .modal-body,
+div.modal_filter_file_setting .modal-body{
+    max-height: 500px;
+    overflow-y: scroll;
+}
+.panel-header>.close,.panel-body>.close, .panel-group>.close {
+    position: absolute;
+    right: 15px;
+    top: 6px;
+}
+table.middle-item td{
+    vertical-align: middle !important;
+}
+.dropdown-menu.un-min-width{
+    min-width: unset !important;
+}
+.badge.badge-danger{
+    background-color: #d9534f !important;
+}
+table tr.hover_active{
+    cursor: pointer;
+}
+table tr.hover_active:hover{
+    background: #f2dede;
+}
